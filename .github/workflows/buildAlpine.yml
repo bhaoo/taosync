@@ -2,7 +2,7 @@ name: build-alpine
 
 on:
   push:
-    branches: [ 'main' ]
+    branches: [ 'modified' ]
     paths: [ 'dockerfiles/alpine.Dockerfile' ]
 
 jobs:

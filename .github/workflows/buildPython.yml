@@ -2,7 +2,7 @@ name: build-python
 
 on:
   push:
-    branches: [ 'main' ]
+    branches: [ 'modified' ]
     paths: [ 'dockerfiles/python.Dockerfile' ]
 
 jobs:

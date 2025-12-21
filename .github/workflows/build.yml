@@ -2,12 +2,12 @@ name: 构建
 
 on:
   push:
-    branches: [ 'main' ]
+    branches: [ 'modified' ]
     paths: [ 'version.txt' ]
 
 env:
   APP_NAME: taoSync
-  DOCKER_USER: dr34m
+  DOCKER_USER: k1sara
   DOCKER_NAME: tao-sync
 
 jobs:
